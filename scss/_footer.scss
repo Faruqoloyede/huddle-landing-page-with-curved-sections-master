@@ -1,0 +1,93 @@
+.footer {
+    background-color: $Cyan;
+    margin-top: 5rem;
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+
+        .newsletter {
+            margin-top: 5rem;
+            color: $white;
+
+            h2 {
+                font-size: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                font-size: 18px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+                margin-bottom: 2rem;
+            }
+
+            .form form {
+                display: block;
+
+                input {
+                    width: 90%;
+                    padding: 16px 20px;
+                    border-radius: 5px;
+                    margin-bottom: 1rem;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                button {
+                    background-color: $Pink;
+                    border: none;
+                    outline: none;
+                    color: $white;
+                    padding: 10px 20px;
+                    margin-bottom: 2rem;
+                    margin-left: 12rem;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .content {
+            width: 100%;
+
+            .logo img {
+                width: 50%;
+                filter: grayscale(1) invert(5);
+            }
+             p {
+                font-size: 18px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+                margin-bottom: 2rem;
+                color: white;
+                margin-top: 1rem;
+            }
+
+            .link {
+                margin-bottom: 20px;
+                display: grid;
+                grid-gap: 10px;
+
+                  img {
+                    width: 6%;
+                    margin-right: 10px;
+                    
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: sans-serif;
+                    color: white;
+                }
+            }
+
+            .social a img {
+                width: 12%;
+                padding: 0.5rem;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

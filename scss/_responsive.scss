@@ -1,0 +1,129 @@
+@media (min-width:1200px) {
+    .showcase  {
+        width: 100%;
+    
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+    
+            .logo {
+                width: 20%;
+            }
+        }
+    
+        .main {
+            margin-top: 7rem;
+    
+            img {
+                width: 100%;
+            }
+        }
+    
+        .pic {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            img {
+                width: 15%;
+            }
+        }
+    }
+    
+    .about {
+        width: 100%;
+        background-color: $Blue;
+        margin-top: 8rem;
+    
+        &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+    
+            img {
+                width: 50%;
+            }
+        }
+    
+        &-text {
+            text-align: left;
+        }
+    }
+    
+    .community {
+        margin-top: 8rem;
+    
+        &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            img {
+                width: 50%;
+            }
+        }
+    
+        &-text {
+            text-align: left;
+        }
+    
+    }
+    
+    .user {
+        width: 100%;
+        background-color: $Blue;
+    
+        &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+    
+            img {
+                width: 50%;
+            }
+        }
+    
+        &-text {
+            text-align: left;
+        }
+    }
+
+    .footer {
+        background-color: $Cyan;
+        margin-top: 7rem;
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5rem;
+
+            .newsletter {
+                margin-top:5rem;
+
+                .form form {
+                    display: flex;
+
+                    input {
+                        width: 150%;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+            .content {
+                margin-top: 5rem;
+
+                .link img {
+                    width: 5%;
+                }
+
+                .social a img {
+                    width: 10%;
+                }
+            }
+        }
+    }
+}
